@@ -1,0 +1,258 @@
+/*  
+@media screen and ( max-width: 440px) {
+
+    .cabecera {
+        display: none;
+        
+
+    }
+
+    #jedi {
+        background-image: url("img/jedi.jpg");
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        height: 300pt;
+        margin-right: auto;
+        margin-left: auto;  */
+
+
+
+@media screen and ( max-width: 800px) {
+   
+    
+    body {
+        
+        display: flex;
+        flex-flow: column wrap;
+
+
+    }
+
+
+    .cabecera {
+        display: none;
+        
+
+    }
+
+    #jedi {
+        background-image: url("img/jedi.jpg");
+        background-repeat: no-repeat;
+        display: block;
+        width: 50%;
+        height: 300pt;
+        margin-right: auto;
+        margin-left: auto;
+
+
+
+    }
+
+    nav {
+        margin-top: 85pt;
+
+
+    } 
+  
+    
+    .backtothetop {
+        display: none;
+
+    }
+
+    
+        
+
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+}
+
+
+
+html {
+ scroll-behavior: smooth;
+
+}
+
+header {
+    position: relative;
+    width: auto;
+    height: 200pt;
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around   
+   
+}
+
+body {
+    position: relative;
+
+}
+
+
+.cabecera {
+    position:relative;
+    padding-left: 15%;
+
+}
+
+.backtothetop {
+    width: 40pt;
+    height: 40pt;
+    position: fixed;
+    right: 5%;
+    top: 90% ;
+}
+
+ .backtothetop:hover {
+    animation: temblique 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+
+footer {
+    padding-left: 5%;
+    padding-top: 200pt;
+
+}
+
+/* INDEX */
+#h1index {
+    text-align: center;
+    padding-top: 100pt;
+    
+}
+
+.pindex {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30pt;
+
+}
+
+#indexspan {
+    font-family: 'Akronim';
+
+}
+
+#indexspan2 {
+    text-decoration: underline turquoise;
+
+}
+
+
+
+/* BIOGRAFIA */
+
+.wrapperbio {
+    margin-top: 65pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+
+}
+
+#col1 {
+    color: red;
+    font-size: smaller;
+    border: wheat 1pt solid;
+    
+
+}
+
+#col2 {
+    font-size: smaller;
+    border: wheat 1pt solid;
+    
+}
+
+#notextdeco {
+    list-style: none;
+
+}
+
+/* CONTACT */
+
+#h1contact {
+    text-align: center;
+    padding-top: 5pt;
+
+}
+
+#textarea {
+    position: relative;
+    display: inline-block;
+    border: black 1px solid;
+    padding: 1%;
+
+}
+
+#formall {
+    margin-top: 65pt;     
+    ; 
+      
+}
+
+.containerform {
+    display: flex;
+    border: 1px solid black;  
+    margin: 45pt 65pt;
+    padding: 7pt;
+  }
+
+  .containerform > * {
+    flex: 1;
+    min-height: 50vh;
+    margin: 0 5px;
+  }
+
+  .wrapperform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  .wrapperform :nth-child(2), .wrapperform :nth-child(3), .wrapperform :nth-child(4) {
+    margin-top: 5px;
+  }
+
+  .wrapperform :nth-child(3),
+  .containerform > textarea {
+    flex: 1;
+  }
+
+
+
+
+
+
+
+
+@keyframes temblique {
+    0% { transform: translate(1px, 2px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, -2px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(0px, 0px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-6px, 6px) rotate(0deg); }
+    70% { transform: translate(6px, 6px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
