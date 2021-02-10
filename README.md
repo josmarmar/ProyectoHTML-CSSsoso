@@ -20,7 +20,7 @@ Flexbox como este.
 San Validator no explotó, aprendí a que no se debe poner p dentro de listas y que debía tirar de br para hacer los saltos de líneas. Realmente fue toda una alegría ver 
 tan pocos errores en Validator. 
 
-La parte de Git fue bastante bien, todo fluido y sin complicaciones hasta que en el último momento el git estaba empecinado en hacer push a la carpeta del Bakrim y no a 
+La parte de Git fue bastante bien, todo fluido y sin complicaciones hasta que en el último momento el git estaba empecinado en hacer push a la carpeta del Bikram y no a 
 la del proyecto. Error solventado gracias a TA Miguel Ángel y que aún no sé qué pude hacer para que me diese ese error. 
 
 Ha de haber una cantidad enfermiza de commits, tras el problema final con el push miedo me da a que los commits sean de otras carpetas y yo sin saberlo.
